@@ -1,0 +1,96 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  /* CONTAINERS */
+  .container-pad-d {padding: 105px 90px 105px 105px;}
+  .container-pad-e {padding: 105px 105px 105px 90px;}
+
+  /* GRAPHIC && PHOTOGRAPHY - TEXTO */
+  .texto {padding: 0 140px 30px 140px;}
+
+  /* CLIENT TESTIMONIALS */
+  #client-testimonials {padding: 110px 100px;}
+  
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  /* CONTAINERS */
+  .container-pad-d {padding: 60px 90px 60px 80px;}
+  .container-pad-e {padding: 60px 60px 60px 90px;}
+
+  /* GRAPHIC && PHOTOGRAPHY - TEXTO */
+  .texto {padding: 0 80px 30px 80px;}
+
+  /* CLIENT TESTIMONIALS */
+  #client-testimonials {padding: 90px 40px;}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /* NAVBAR HEADER */
+  .navbar-header {padding: 30px 15px;}
+
+  .navbar-header>div {position: relative;}
+
+  .navbar-menu-header>ul {display: none;}
+
+  .menu-toogle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar-menu-header {
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    height: 0;
+    overflow-y: hidden;
+    width: 100%;
+    display: block;
+    z-index: 1000;
+    transition: .8s;
+  }
+
+  .navbar-menu-header.on {
+    height: 250px;
+  }
+
+  /* CONTAINERS */
+  .container-pad-d, .container-pad-e {padding: 60px 90px 60px 60px; text-align: center;}
+
+  .stand-out-container {order: -1;}
+  
+  /* GRAPHIC && PHOTOGRAPHY - TEXTO */
+  .texto {padding: 0 175px 40px 175px;}
+
+  /* CLIENT TESTIMONIALS */
+  #client-testimonials {padding: 110px 100px;}
+
+  /* CLIENT TESTIMONIALS */
+  #client-testimonials {padding: 110px 170px;}
+
+  /* IMGS FOOTER */
+  #imgs-after-footer img {height: 185px;}
+
+  /* FOOTER NAVBAR */
+  .navbar-footer a {padding: 0 15px;}
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  /* CONTAINERS */
+  .container-pad-d, .container-pad-e {padding: 40px;}
+
+  /* GRAPHIC && PHOTOGRAPHY - TEXTO */
+  .texto {padding: 0 30px 30px 30px;}
+
+  /* CLIENT TESTIMONIALS */
+  #client-testimonials {padding: 70px 40px;}
+
+  /* CAPA */
+  #capa h1 {font-size: 40px;}
+
+}
